@@ -1,0 +1,13 @@
+{
+  "name": "返利购重写订阅",
+  "author": "elecV2p",
+  "mitmhost": ["api.flgflg.com"],
+  "rewrite": [
+    {
+      //用户信息
+      "match": "https://api.flgflg.com/htmmall/api/gold/finishedVideoNum",
+      "target": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js",
+      "enable": true
+    }
+  ]
+}
