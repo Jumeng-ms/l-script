@@ -60,7 +60,7 @@ module.exports = {
     "favIconColor": "grey",
     "datas": [{
       "key": "dturl",
-      "val": "https://plus.dutenews.com/api/v2/auth/logindute?app_version=6.3.1&clientid=1&device_id=bde5c86e-b374-4eac-b0fb-1276ece62867&device_model=xxxx&device_version=iPhone&ip=xxxxxxxxx&memberid=761007&mobile=xxxxxxxxxxx&nickname=xxxxxxxxxxxx&sign=459504b2a3bb3b835b92e48e9fdc0397&siteid=10001&system_name=android&system_version=xxxxxx&time=1634202874260&type=android"
+      "val": ""
     }, {
       "key": "dturl2",
       "val": ""
