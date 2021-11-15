@@ -1,0 +1,19 @@
+{
+  "name": "电视家重写订阅",
+  "author": "elecV2p",
+  "mitmhost": ["*"],
+  "rewrite": [
+    {
+      //提现 获取url
+      "match": "http://api.gaoqingdianshi.com/api/*",
+      "target": "https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/dsj.js",
+      "enable": true
+    },
+    {
+     //header
+      "match": "http://.+/api/v2/device/info",
+      "target": "https://raw.githubusercontent.com/ziye888/JavaScript/main/Task/dsj.js",
+      "enable": true
+    }
+  ]
+}
