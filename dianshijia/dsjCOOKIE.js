@@ -1,7 +1,7 @@
 module.exports = {
-            "id": "dsj",
-	"name": "电视家APP",
-	"keys": ["dsjheader", "dsjtx", "dsjheader2", "dsjtx2", "dsjheader3", "dsjtx3", "dsjheader4", "dsjtx4", "dsjheader5", "dsjtx5", "dsjheader6", "dsjtx6", "dsjheader7", "dsjtx7", "dsjheader8", "dsjtx8", "dsjheader9", "dsjtx9", "dsjheader10", "dsjtx10", "dsjheader11", "dsjtx11", "dsjheader12", "dsjtx12", "dsjheader13", "dsjtx13", "dsjheader14", "dsjtx14", "dsjheader15", "dsjtx15", "dsjheader16", "dsjtx16", "dsjheader17", "dsjtx17", "dsjheader18", "dsjtx18", "dsjheader19", "dsjtx19", "dsjheader20", "dsjtx20"],
+    "id": "dsj",
+    "name": "电视家APP",
+    "keys": ["dsjheader", "dsjtx", "dsjheader2", "dsjtx2", "dsjheader3", "dsjtx3", "dsjheader4", "dsjtx4", "dsjheader5", "dsjtx5", "dsjheader6", "dsjtx6", "dsjheader7", "dsjtx7", "dsjheader8", "dsjtx8", "dsjheader9", "dsjtx9", "dsjheader10", "dsjtx10", "dsjheader11", "dsjtx11", "dsjheader12", "dsjtx12", "dsjheader13", "dsjtx13", "dsjheader14", "dsjtx14", "dsjheader15", "dsjtx15", "dsjheader16", "dsjtx16", "dsjheader17", "dsjtx17", "dsjheader18", "dsjtx18", "dsjheader19", "dsjtx19", "dsjheader20", "dsjtx20"],
 	"author": "@ziye",
 	"settings": [{
 			"id": "dsjSuffix",
@@ -70,20 +70,20 @@ module.exports = {
 	"repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.js",
 	"icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.png"],
 	"script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.js",
- "datas": [{
-      "key": "dsjheader",
-      "val": ""
-    }, 
-    {
-      "key": "dsjheader2",
-      "val": ""
-    }, 
-    {
-      "key": "dsjheader3",
-      "val": ""
-    }
-],
-    "sessions": [],
-    "isLoaded": true
-  }
+	"datas": [{
+	  "key": "dsjheader",
+	  "val": ""
+	}, 
+	{
+	  "key": "dsjheader2",
+	  "val": ""
+	}, 
+	{
+	  "key": "dsjheader3",
+	  "val": ""
+	}
+	],
+	"sessions": [],
+	"isLoaded": true
+}
   
