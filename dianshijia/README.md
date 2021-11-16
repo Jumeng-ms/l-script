@@ -29,3 +29,5 @@ settings 中 id 为dsjCount 的 val
     "type": "number",
     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
 }
+
+脚本来源：https://github.com/ziye888/JavaScript
