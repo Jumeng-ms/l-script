@@ -14,7 +14,7 @@ module.exports={
 		{
 			"id":"dsjCount",
 			"name":"账号个数",
-			"val":"10",
+			"val":"1",
 			"type":"number",
 			"desc":"指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
 		},
