@@ -1,3 +1,4 @@
+来源：https://github.com/leafxcy/JavaScript/blob/main/blackUnique.js
 corn: 1 * * * *(每小时运行一次)
 
 青龙：
