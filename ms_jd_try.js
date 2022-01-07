@@ -343,7 +343,7 @@ async function tryGoodList() {
   $.stopMsg = "申请完毕";
   for (let i = 0; i < $.goodList.length && $.running; i++) {
     let good = $.goodList[i];
-    const waitTime = generateRandomInteger(1000, 5000);
+    const waitTime = generateRandomInteger(5000, 8000);
     console.log(`随机等待${waitTime}ms后继续执行`);
     await $.wait(waitTime);
     await try_apply(good);
