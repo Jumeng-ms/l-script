@@ -217,7 +217,7 @@ let args_xh = {
                         }
                         await try_apply(trialActivityTitleList[i], trialActivityIdList[i])
     const waitTime = generateRandomInteger(10000, 20000);
-    console.log(`随机等待${waitTime}ms后继续执行`);
+    console.log(`\n 随机等待${waitTime}ms后继续执行 \n`);
     await $.wait(waitTime);
                     }
                     console.log("试用申请执行完毕...")
@@ -297,6 +297,17 @@ function requireConfig(){
     })
 }
 
+ const generateRandomInteger = (min, max = 0) => {
+   if (min > max) {
+     let temp = min;
+     min = max;
+     max = temp;
+   }
+   var Range = max - min;
+   var Rand = Math.random();
+   return min + Math.round(Rand * Range);
+ };
+ 
 //获取tabList的，如果不知道tabList有哪些，跑一遍这个function就行了
 function try_tabList(){
     return new Promise((resolve, reject) => {
@@ -460,7 +471,7 @@ function try_apply(title, activityId){
                 if(err){
                     if(JSON.stringify(err) === `\"Response code 403 (Forbidden)\"`){
                         $.isForbidden = true
-                        console.log('账号被京东服务器风控，不再请求该帐号')
+                        console.log('狗东不给你申请这个商品呢！')
                     } else {
                         console.log(JSON.stringify(err))
                         console.log(`${$.name} API请求失败，请检查网路重试`)
